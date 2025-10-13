@@ -1,0 +1,5 @@
+python automation/login_capture.py
+python automation/chat_1to1_capture.py
+python automation/group_chat_capture.py
+python automation/upload_feature_capture.py
+python automation/offline_mode_capture.py
