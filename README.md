@@ -1,8 +1,9 @@
-***setup guide***
+# Setup Guide
+
 
 # Clone the repository
-git clone https://github.com/<your-username>/realtime-chat-app.git
-cd realtime-chat-app
+https://github.com/Rohinthan/NM_Real-Time-Chat-Application/tree/main
+
 
 # Install dependencies
 npm install
