@@ -10,7 +10,6 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const path = require("path");
 
-// App setup
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
@@ -28,8 +27,8 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("✅ MongoDB Connected"))
-  .catch((err) => console.log("❌ DB Error:", err));
+  .then(() => console.log(" MongoDB Connected"))
+  .catch((err) => console.log(" DB Error:", err));
 
 // ----------------------------
 // Message Schema
@@ -62,7 +61,7 @@ app.get("/", (req, res) => {
   </head>
   <body>
     <div class="chat-container">
-      <h3 class="text-center mb-3">💬 IBM-NJ Realtime Chat Application</h3>
+      <h3 class="text-center mb-3"> IBM-NJ Realtime Chat Application</h3>
       <div class="messages" id="messages"></div>
       <div class="input-group mt-2">
         <input id="username" type="text" class="form-control" placeholder="Enter your name">
@@ -148,5 +147,5 @@ io.on("connection", (socket) => {
 // ----------------------------
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(\`🚀 IBM-NJ Chat App running on http://localhost:\${PORT}\`);
+  console.log(\` IBM-NJ Chat App running on http://localhost:\${PORT}\`);
 });
