@@ -18,4 +18,4 @@ time.sleep(3)
 driver.save_screenshot(SCREENSHOT_PATH)
 driver.quit()
 
-print("[✔] Offline mode screenshot saved successfully.")
+print(" Offline mode screenshot saved successfully.")
