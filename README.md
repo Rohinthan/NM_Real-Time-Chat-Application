@@ -52,8 +52,7 @@ It uses **Python + Selenium WebDriver** to open the web app, navigate between pa
 
 1. **Clone the repository**
    ```bash
-   
-github.com/Rohinthan/NM_Real-Time-Chat-Application/tree/main
+    git Rohinthan/NM_Real-Time-Chat-Application/tree/main
 
 #install dependency 
 pip install selenium
