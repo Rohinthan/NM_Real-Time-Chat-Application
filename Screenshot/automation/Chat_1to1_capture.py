@@ -19,4 +19,4 @@ driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 driver.save_screenshot(SCREENSHOT_PATH)
 driver.quit()
 
-print("[✔] 1-to-1 chat screenshot saved successfully.")
+print("1-to-1 chat screenshot saved successfully.")
